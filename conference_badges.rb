@@ -21,7 +21,7 @@ end
 
 def printer(speakers)
   
-  badges = batch_badge_maker(speakers)
+  badges = batch_badge_creator(speakers)
   
   badges.each{ |badge| puts badge}
   
